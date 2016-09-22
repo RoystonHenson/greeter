@@ -1,4 +1,4 @@
-require "./greeter.rb"
+require "greeter"
 
 describe "Greeter" do
   it "greets Rico" do
