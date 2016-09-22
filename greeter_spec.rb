@@ -7,4 +7,7 @@ describe "Greeter" do
   it "greets Chloë" do
     expect(greet("Chloë")).to eq "Hello, Chloë, how are you today"
   end
+  it "greets Royston" do
+    expect(greet("Royston")).to eq "Hello, Royston, how are you today?"
+  end
 end
